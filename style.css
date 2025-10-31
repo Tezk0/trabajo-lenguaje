@@ -69,7 +69,8 @@
     align-items: flex-start;
     gap: 20px; 
     z-index: 3;
-    padding: 0 20px;
+    padding: 0 200px;
+
 }
 .gutsportada img{
     display: block;
