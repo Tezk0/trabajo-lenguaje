@@ -69,14 +69,13 @@
     align-items: flex-start;
     gap: 20px; 
     z-index: 3;
-    padding: 0 200px;
-
+    padding: 0 20px;
 }
 .gutsportada img{
     display: block;
     width: 450px;
     height: 500px ;
-    margin-left: 14px;
+    margin-left: 100px;
     z-index: 3;
 }
 .gutsportada p{
@@ -85,11 +84,12 @@
     text-align: left;
     margin: 0;
     padding: 6px 33px 0 0;  
-    margin-right:220px;
+    margin-right:250px;
     font-family: CC Wild Words;
     position: absolute;
     z-index: 4;
     flex: 1; 
+    line-height: 1.9;
 }
 .boton-ir {
     position: relative;
