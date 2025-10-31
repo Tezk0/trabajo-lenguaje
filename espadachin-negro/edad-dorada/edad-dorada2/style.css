@@ -1,0 +1,119 @@
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+  pointer-events: none;
+  filter: blur(1.9px);
+}
+.cuerpo{
+    height: 794px;
+    width: 374px;
+    background-color: rgb(17, 17, 17);
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 500px;
+    border-radius: 10px;
+}
+.sangre{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-59%, -60%) rotate(600deg);
+    width: 180%; 
+    height: auto;
+    z-index: 0;
+}
+.sangre img{
+  display: block;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+}
+.titulo img{
+  width: 300px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 30px;
+  color: red;
+}
+.titulo p{
+  color: #CC0000;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 5px;
+  text-align: center;
+  position: relative; 
+  z-index: 3; 
+  -webkit-text-stroke: 1px black;
+  margin-right: 20px;
+}
+.contenido img{
+    width: 300px;
+    display: flex;
+    margin-left: 28px;
+    position: absolute;
+    border-radius: 5px;
+}
+.contenidotexto{
+    color: white;
+    font-size: 15px;
+    margin-top: 355px;
+    font-family: CC Wild Words;
+    padding: 10px 10px;
+    line-height: 1.05;
+    z-index: 5;
+    position: absolute;
+}
+.boton-ir {
+  position: absolute;
+  display: inline-flex;
+  padding: 16px 32px;
+  background: linear-gradient(90deg, #b31217 0%, #2d0b00 100%);
+  color: #fff;
+  font-size: 20px;
+  font-family: CC Wild Words;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-left: 150px ;
+  margin-top: 420px;
+  z-index: 1;
+}
+.boton-ir:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 8px 24px rgba(179,18,23,0.3);
+  background: linear-gradient(90deg, #2d0b00 0%, #b31217 100%);
+}
+.boton-ir2 {
+  position: absolute;
+  display: inline-flex;
+  padding: 16px 32px;
+  background: linear-gradient(90deg, #b31217 0%, #2d0b00 100%);
+  color: #fff;
+  font-size: 20px;
+  font-family: CC Wild Words;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  top: 420px;
+  left: 70px;
+  z-index: 3;
+  margin-left: 40px;
+}
+.boton-ir2:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 8px 24px rgba(179,18,23,0.3);
+  background: linear-gradient(90deg, #2d0b00 0%, #b31217 100%);
+}

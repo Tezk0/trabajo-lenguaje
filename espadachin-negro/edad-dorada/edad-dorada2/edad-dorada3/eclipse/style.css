@@ -1,0 +1,66 @@
+body {
+    background-image: url(../../../../data-EN/Guts-BG\(3\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#container img {
+    border-radius: 10px;
+    height: 794px;
+    width: 374px;
+}
+.boton-ir {
+  padding: 16px 32px;
+  background: linear-gradient(90deg, #b31217 0%, #2d0b00 100%);
+  color: #fff;
+  font-size: 20px;
+  font-family: CC Wild Words;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.boton-ir:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 8px 24px rgba(179,18,23,0.3);
+  background: linear-gradient(90deg, #2d0b00 0%, #b31217 100%);
+}
+
+.boton-ir2 {
+  padding: 16px 32px;
+  background: linear-gradient(90deg, #b31217 0%, #2d0b00 100%);
+  color: #fff;
+  font-size: 20px;
+  font-family: CC Wild Words;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.boton-ir2:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 8px 24px rgba(179,18,23,0.3);
+  background: linear-gradient(90deg, #2d0b00 0%, #b31217 100%);
+}
+
+@media (max-width: 800px) {
+    #container {
+        flex-direction: column;
+    }
+
+    #container img {
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
