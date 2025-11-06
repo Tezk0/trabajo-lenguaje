@@ -14,6 +14,7 @@ body {
 #container img {
     height: 794px;
     width: 374px;
+    border-radius: 10px;
 }
 .boton-ir {
   padding: 16px 32px;
