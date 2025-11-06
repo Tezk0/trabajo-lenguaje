@@ -64,3 +64,11 @@ body {
         margin-bottom: 20px;
     }
 }
+    @font-face {
+        font-family: 'CC Wild Words'; /* Choose a descriptive name */
+        src: url('fonts/CCWildWordsRoman.otf') format('opentype'),
+             url('fonts/CCWildWordsRoman.ttf') format('truetype');
+        /* Add other formats if available for broader browser compatibility */
+        font-weight: normal;
+        font-style: normal;
+ }
