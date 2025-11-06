@@ -40,7 +40,7 @@ body {
   background: linear-gradient(90deg, #b31217 0%, #2d0b00 100%);
   color: #fff;
   font-size: 20px;
-  font-family: 'CC Wild Words';
+  font-family:'CC Wild Words';
   border: none;
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.3);
@@ -65,7 +65,7 @@ body {
     }
 }
     @font-face {
-        font-family: 'CC Wild Words'; /* Choose a descriptive name */
+        font-family:'CC Wild Words'; /* Choose a descriptive name */
         src: url('fonts/CCWildWordsRoman.otf') format('opentype'),
              url('fonts/CCWildWordsRoman.ttf') format('truetype');
         /* Add other formats if available for broader browser compatibility */
